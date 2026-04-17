@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varsha | AI/ML Engineer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>
+      <span class="logo-text">Varsha</span>
+      <span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <canvas id="particleCanvas"></canvas>
+      <div class="grid-lines"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-tag reveal-up" data-delay="0">
+        <span class="dot-pulse"></span>
+        B.Tech CSE · AI/ML Specialization
+      </div>
+
+      <h1 class="hero-name reveal-up" data-delay="100">
+        <span class="name-line">Hi, I'm</span>
+        <span class="name-big glitch" data-text="Varsha">Varsha</span>
+      </h1>
+
+      <p class="hero-subtitle reveal-up" data-delay="200">
+        Building intelligent systems & beautiful interfaces — where <em>machine learning</em> meets <em>design thinking</em>.
+      </p>
+
+      <div class="hero-cta reveal-up" data-delay="300">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Work</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+      </div>
+
+      <div class="hero-stats reveal-up" data-delay="400">
+        <div class="stat">
+          <span class="stat-num" data-target="10">0</span><span>+</span>
+          <p>Technologies</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="5">0</span><span>+</span>
+          <p>Projects</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span>+</span>
+          <p>Years Learning</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="avatar-wrap">
+            <div class="avatar-ring ring1"></div>
+            <div class="avatar-ring ring2"></div>
+            <div class="avatar-core">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+            <div class="orbit-dot"></div>
+          </div>
+          <div class="about-badge">
+            <i class="fas fa-brain"></i>
+            <span>AI/ML Enthusiast</span>
+          </div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <div class="section-label">// about_me</div>
+          <h2 class="section-title">Crafting the future<br/>one model at a time.</h2>
+          <p>I'm a passionate Computer Science student at <strong>Manav Rachna International Institute of Research and Studies</strong>, specializing in Artificial Intelligence and Machine Learning.</p>
+          <p>I thrive at the intersection of data, design, and development — building projects that are not just functional but visually compelling and intelligent.</p>
+          <div class="about-chips">
+            <span class="chip"><i class="fas fa-map-marker-alt"></i> Gurugram, India</span>
+            <span class="chip"><i class="fas fa-graduation-cap"></i> MRIIRS</span>
+            <span class="chip"><i class="fas fa-code"></i> Full Stack + AI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-label">// tech_stack</div>
+        <h2 class="section-title">Skills & Tools</h2>
+      </div>
+
+      <div class="skills-universe">
+        <!-- AI / ML -->
+        <div class="skill-category reveal-up" data-delay="0">
+          <div class="skill-cat-header">
+            <i class="fas fa-robot"></i>
+            <span>AI / ML</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill" data-level="85">
+              <span>Python</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+            </div>
+            <div class="skill-pill" data-level="75">
+              <span>Machine Learning</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+            </div>
+            <div class="skill-pill" data-level="70">
+              <span>Deep Learning</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data & Analytics -->
+        <div class="skill-category reveal-up" data-delay="100">
+          <div class="skill-cat-header">
+            <i class="fas fa-chart-bar"></i>
+            <span>Data & Analytics</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill">
+              <span>Tableau</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+            </div>
+            <div class="skill-pill">
+              <span>Data Visualization</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="78"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Dev -->
+        <div class="skill-category reveal-up" data-delay="200">
+          <div class="skill-cat-header">
+            <i class="fas fa-globe"></i>
+            <span>Web Development</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill">
+              <span>JavaScript</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="82"></div></div>
+            </div>
+            <div class="skill-pill">
+              <span>HTML / CSS</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+            </div>
+            <div class="skill-pill">
+              <span>Java</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="72"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design -->
+        <div class="skill-category reveal-up" data-delay="300">
+          <div class="skill-cat-header">
+            <i class="fas fa-palette"></i>
+            <span>Design & Creative</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill">
+              <span>Figma</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="83"></div></div>
+            </div>
+            <div class="skill-pill">
+              <span>Graphic Design</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+            </div>
+            <div class="skill-pill">
+              <span>Canva</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech Logos Ticker -->
+      <div class="ticker-wrap reveal-up">
+        <div class="ticker">
+          <div class="ticker-inner">
+            <span>Python</span><span>·</span>
+            <span>JavaScript</span><span>·</span>
+            <span>Tableau</span><span>·</span>
+            <span>Figma</span><span>·</span>
+            <span>Java</span><span>·</span>
+            <span>Machine Learning</span><span>·</span>
+            <span>Canva</span><span>·</span>
+            <span>Deep Learning</span><span>·</span>
+            <span>Web Dev</span><span>·</span>
+            <span>Graphic Design</span><span>·</span>
+            <span>Python</span><span>·</span>
+            <span>JavaScript</span><span>·</span>
+            <span>Tableau</span><span>·</span>
+            <span>Figma</span><span>·</span>
+            <span>Java</span><span>·</span>
+            <span>Machine Learning</span><span>·</span>
+            <span>Canva</span><span>·</span>
+            <span>Deep Learning</span><span>·</span>
+            <span>Web Dev</span><span>·</span>
+            <span>Graphic Design</span><span>·</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-label">// projects</div>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal-up" data-delay="0">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-brain"></i></div>
+            <div class="project-links">
+              <a href="#" class="icon-btn"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="icon-btn"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Sentiment Analysis Engine</h3>
+          <p class="project-desc">NLP-powered sentiment classifier trained on social media data. Deployed as a REST API with a clean dashboard for real-time analysis.</p>
+          <div class="project-tags">
+            <span>Python</span><span>NLP</span><span>ML</span><span>Flask</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" data-delay="100">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="project-links">
+              <a href="#" class="icon-btn"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="icon-btn"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Sales Analytics Dashboard</h3>
+          <p class="project-desc">Interactive Tableau dashboard visualizing multi-year sales trends with drill-down capabilities and predictive forecasting.</p>
+          <div class="project-tags">
+            <span>Tableau</span><span>Data Viz</span><span>Analytics</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" data-delay="200">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-image"></i></div>
+            <div class="project-links">
+              <a href="#" class="icon-btn"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="icon-btn"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Image Classification CNN</h3>
+          <p class="project-desc">Convolutional neural network with 94% accuracy for multi-class image recognition, trained from scratch using custom datasets.</p>
+          <div class="project-tags">
+            <span>Deep Learning</span><span>CNN</span><span>Python</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" data-delay="300">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="project-links">
+              <a href="#" class="icon-btn"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="icon-btn"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce UI/UX Redesign</h3>
+          <p class="project-desc">Full Figma prototype and responsive front-end build for an e-commerce platform — focused on conversion optimization & accessibility.</p>
+          <div class="project-tags">
+            <span>Figma</span><span>HTML/CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card featured reveal-up" data-delay="400">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="#" class="icon-btn"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="icon-btn"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <span class="featured-tag">⭐ Featured</span>
+          <h3 class="project-title">AI Chatbot Platform</h3>
+          <p class="project-desc">Full-stack conversational AI platform with custom intent recognition, multi-turn dialogue management, and a polished web interface — from model training to deployment.</p>
+          <div class="project-tags">
+            <span>Python</span><span>NLP</span><span>JavaScript</span><span>Web Dev</span><span>ML</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-label">// education</div>
+        <h2 class="section-title">Academic Journey</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-year">2022 — Present</div>
+            <h3>B.Tech Computer Science Engineering</h3>
+            <h4>Manav Rachna International Institute of Research and Studies</h4>
+            <p>Specialization in Artificial Intelligence & Machine Learning. Studying core CS principles alongside cutting-edge AI/ML methodologies.</p>
+            <div class="timeline-tags">
+              <span>AI/ML</span><span>DSA</span><span>Deep Learning</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-year">2020 — 2022</div>
+            <h3>Senior Secondary (XII)</h3>
+            <h4>Science Stream · PCM + Computer Science</h4>
+            <p>Built a strong foundation in Mathematics, Physics, and Computer Science fundamentals that fuels my engineering mindset today.</p>
+            <div class="timeline-tags">
+              <span>Mathematics</span><span>Physics</span><span>CS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-label">// contact</div>
+        <h2 class="section-title">Let's Build Something<br/>Extraordinary.</h2>
+        <p class="section-sub">Have a project, opportunity, or just want to chat about AI? I'm all ears.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info reveal-left">
+          <div class="contact-card">
+            <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="cc-label">Email</p>
+              <a href="mailto:varsha@example.com" class="cc-val">varsha@example.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <p class="cc-label">LinkedIn</p>
+              <a href="#" class="cc-val">linkedin.com/in/varsha</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <p class="cc-label">GitHub</p>
+              <a href="#" class="cc-val">github.com/varsha</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="cc-label">Location</p>
+              <span class="cc-val">Gurugram, Haryana, India</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="nav-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-text">Varsha</span>
+          <span class="logo-bracket">/&gt;</span>
+        </div>
+        <p>Designed & Built with 💜 by Varsha · MRIIRS · B.Tech CSE (AI/ML)</p>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Varsha. All rights reserved.</span>
+        <div class="footer-links">
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
